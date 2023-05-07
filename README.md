@@ -1,13 +1,13 @@
 ﻿# AVI Player on SDL
 
-I am [Joan Valiente](www.linkedin.com/in/joan-valiente-lorite-498a9b129), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).
+I am [Eric Regalon], student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, 
 
 
 
 Download latest release [here](https://github.com/JoanValiente/Video-Player-Research/releases/tag/1.0)
 ## 1.Introduction
 
-In this website I will explain how to implement a module to reproduce AVI files, and how it works. This modules are programmed in C++ using VisualStudio2017.
+In this website I will explain how to implement a module to reproduce AVI files, and how it works. This modules are programmed in C++ using VisualStudio2019.
 I am also using Video For Windows libraries and DirectShow to open, read and decompress AVI files; and SDL to render graphics.
 
 I want to say that the way I have implemented this code is not absolute, or the best. There are many ways of doing it, this tutorial is just an example of how I managed to solve this problem, so if you do not want to follow this tutorial and do it your own way I encourage you to check the references links that I visited to do this.
@@ -15,13 +15,9 @@ I hope you find it useful.
 
 ## 2. Pre-rendered videos on video games
 
-Pre-rendering is the process in which video footage is not rendered in real-time by the hardware that is outputting or playing back the video. Instead, the video is a recording of footage that was previously rendered on different equipment.
-Since we are learning how to implement a video player to use it on our games projects, I think it is important to explain a little bit what their uses are, their advantatges, their disadvantages, etc.
+Pre-rendering refers to the process of recording video footage that was previously rendered on different equipment, as opposed to rendering it in real-time during playback. In the context of game development, video players are commonly used for cut-scenes, studio introductions, intermissions, and credits. Although pre-rendered cutscenes have lost some popularity in recent years, they are still a powerful narrative tool that can enhance the player's experience.
 
-The most common use of a video player in video games is for cut-scenes. But we can also use it for an intro animation of the studio, intermissions, credits, etc. However, pre-rendered cutscenes are mostly rejected by users nowadays, but we will talk about that later. 
-One of the first games to extensively use pre-rendered graphics along with full motion video was [The 7th Guest](https://en.wikipedia.org/wiki/The_7th_Guest).
-Here is a video with the cutscenes of the game.
-<div style="position:relative;height:0;padding-bottom:52.18%"><iframe src="https://www.youtube.com/embed/9TOkdq55zhw?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="690" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+The first game to extensively use pre-rendered graphics alongside full-motion video was The 7th Guest. Since then, pre-rendered cutscenes have been widely adopted in video games for their ability to convey story and character development. Cutscenes can serve as an introduction to the game's world, a reward for the player's achievements, or an intermission that provides context or clues for the next level.
 
 Since then, pre-rendered cutscenes have been used in a lot of videogames because of its narrative strength. We can see them as an introductory video to the main game, an intermission, a video that is played after a certain event, etc.
 We can see some examples here.
@@ -367,3 +363,4 @@ App->audio->PlayMusic("video/sample.ogg", 0.0f);
 - [http://lazyfoo.net/tutorials/SDL/15_rotation_and_flipping/index.php](http://lazyfoo.net/tutorials/SDL/15_rotation_and_flipping/index.php)
 - [https://es.wikipedia.org/wiki/Vorbis](https://es.wikipedia.org/wiki/Vorbis)
 - [https://discourse.libsdl.org/t/avi-player/11229/3](https://discourse.libsdl.org/t/avi-player/11229/3)
+- [https://github.com/JoanValiente/Video-Player-Research](https://github.com/JoanValiente/Video-Player-Research)
